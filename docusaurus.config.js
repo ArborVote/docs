@@ -1,5 +1,5 @@
 module.exports = {
-  title: '🗳 ArborVote 🌳',
+  title: '🌳 ArborVote 🗳',
   tagline: 'Rational decision-making by quadratic voting on argument trees.',
   projectName: 'ArborVote-docs',
   organizationName: 'ArborVote',
@@ -8,9 +8,9 @@ module.exports = {
   favicon: 'img/favicon.ico',
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'ArborVote',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'ArborVoteLogo',
         src: 'img/logo.svg',
       },
       links: [
