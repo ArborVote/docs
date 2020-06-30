@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[12],{150:function(o){o.exports=JSON.parse('{"allTagsPath":"/ArborVote-docs/blog/tags","slug":"hola","name":"hola","count":1,"permalink":"/ArborVote-docs/blog/tags/hola"}')}}]);
