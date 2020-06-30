@@ -10,8 +10,8 @@ module.exports = {
     navbar: {
       title: 'ArborVote',
       logo: {
-        alt: 'ArborVoteLogo',
-        src: 'img/logo.svg',
+        alt: 'ArborVoteIcon',
+        src: 'img/ArborVoteIcon.svg',
       },
       links: [
         {
