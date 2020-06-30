@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
+  title: '🗳 ArborVote 🌳',
+  tagline: 'Rational decision-making by quadratic voting on argument trees.',
   projectName: 'ArborVote-docs',
   organizationName: 'ArborVote',
   url: 'https://ArborVote.github.io.', // Your website URL
