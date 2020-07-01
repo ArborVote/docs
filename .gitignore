@@ -1,5 +1,3 @@
-.DS_STORE
-.idea
 # Logs
 logs
 *.log
@@ -104,3 +102,13 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Docusaurus
+build
+.docusaurus/
+
+# macOS
+.DS_STORE
+
+# JetBrains IDE
+.idea
