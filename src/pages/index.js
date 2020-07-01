@@ -15,7 +15,7 @@ const features = [
         We don't want to live in a world where we can only say yes or no.
         Deliberation and rationalism should be the basis for important decisions.
         Creation of arguments in a tree structure invites people to consider multiple perspectives
-        and jump-start them into the debate.
+        and jump-starts them into the debate.
       </>
     ),
   },

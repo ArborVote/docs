@@ -1,6 +1,6 @@
 module.exports = {
   someSidebar: {
-    Docusaurus: ['stages','votecounting'],
-    Features: ['mdx'],
+    Overview: ['introduction','stages'],
+    Algorithm: ['votecounting'],
   },
 };
