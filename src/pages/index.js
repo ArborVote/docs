@@ -20,7 +20,7 @@ const features = [
     ),
   },
   {
-    title: <>Democratic Quadratic Voting on Arguments</>,
+    title: <>Democratic Quadratic Voting</>,
     imageUrl: 'img/Votebox.svg',
     description: (
       <>
