@@ -1,11 +1,8 @@
 ---
-id: voting
-title: Voting Algorithm
-sidebar_label: Style Guide
+id: stages
+title: Stages
+sidebar_label: Stages
 ---
-
-You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
-
 
 ## Stages
 The decision-making process in ArborVote takes place in four stages:
@@ -23,9 +20,9 @@ the creation phase begins.
 Participants joining the debate can post arguments and have to pay a few. 
 
 
-## Voting Stage
+### Voting Stage
 Todo
 
-## Counting Stage
-
+### Counting Stage
+Todo
 
