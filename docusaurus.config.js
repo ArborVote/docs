@@ -4,7 +4,7 @@ module.exports = {
   projectName: 'ArborVote-docs',
   organizationName: 'ArborVote',
   url: 'https://ArborVote.github.io.',
-  baseUrl: '/',
+  baseUrl: '/ArborVote-docs/',
   favicon: 'img/favicon.ico',
   themeConfig: {
     navbar: {
@@ -46,11 +46,7 @@ module.exports = {
         },
         {
           title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
+          items: [/*
             {
               label: 'Discord',
               href: 'https://discordapp.com/invite/docusaurus',
@@ -58,7 +54,7 @@ module.exports = {
             {
               label: 'Twitter',
               href: 'https://twitter.com/docusaurus',
-            },
+            },*/
           ],
         },
         {
@@ -70,7 +66,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/ArborVote/ArborVote',
             },
           ],
         },
