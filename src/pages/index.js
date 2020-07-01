@@ -8,32 +8,37 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: <>Easy to Use</>,
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    title: <>Trees of Rational Arguments</>,
+    imageUrl: 'img/Tree.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        We don't want to live in a world where we can only say yes or no.
+        Deliberation and rationalism should be the basis for important decisions.
+        Creation of arguments in a tree structure invites people to consider multiple perspectives
+        and jump-start them into the debate.
       </>
     ),
   },
   {
-    title: <>Focus on What Matters</>,
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    title: <>Democratic Quadratic Voting on Arguments</>,
+    imageUrl: 'img/Votebox.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        It is important to us that every voter has equal voting shares.
+        With quadratic vote cost, we incentivize people to distribute their share on multiple arguments.
+        This self-imposed weighting measures the importance of arguments for the decision
+        and leverages the wisdom of the crowd.
       </>
     ),
   },
   {
-    title: <>Powered by React</>,
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    title: <>Decentralized Decision-Making</>,
+    imageUrl: 'img/Rocket.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        The decision is formed by accumulating all votes from the leafs of the tree to the root.
+        Thanks to smart-contracts and external identity providers on the Ethereum blockchain,
+        the entire creation, voting, and counting process is transparent, verifiable, and resilient.
       </>
     ),
   },
@@ -59,8 +64,8 @@ function Home() {
   const {siteConfig = {}} = context;
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`Welcome to ${siteConfig.title}`}
+      description="ArborVote is a decentralized platform for rational decision-making by quadratic voting on argument trees on the Ethereum blockchain.">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>

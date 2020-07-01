@@ -7,7 +7,7 @@
 </clipPath>
 <g clip-path="url(#cp0)">
 <mask id="ma1">
-<g transform="matrix(.18125,0,0,.18125,2,2.1304169)">
+<g transform="matrix(.18125,0,0,.18125,1,1.9539108)">
 <use xlink:href="#im2" x="0" y="0" width="160" height="160"/>
 </g>
 </mask>
@@ -77,7 +77,7 @@ BEBhDKfcgyTn6afCo6PDQ0FV2b2HsnZndUXofYB7YSQYFyk5+7Fm/R8zbBHOSybA
 zAAAAABJRU5ErkJggg=="/>
 </symbol>
 <g mask="url(#ma1)">
-<g transform="matrix(.18125,0,0,.18125,2,2.1304169)">
+<g transform="matrix(.18125,0,0,.18125,1,1.9539108)">
 <symbol id="im3" viewBox="0 0 160 160">
 <image width="160" height="160" xlink:href="data:image/png;base64,
 iVBORw0KGgoAAAANSUhEUgAAAKAAAACgCAIAAAAErfB6AAB4/ElEQVR4nOy9V7Ml
@@ -731,7 +731,7 @@ AJk+rMD7XtZRAAAAAElFTkSuQmCC"/>
 <use xlink:href="#im3" x="0" y="0" width="160" height="160"/>
 </g>
 </g>
-<text fill-opacity="0" xml:space="preserve" transform="matrix(1 0 0 -1 1.598425 29.06521)" font-size="29" font-family="AppleColorEmoji"><tspan y="124.0652" x="290.5984">!</tspan></text>
+<text fill-opacity="0" xml:space="preserve" transform="matrix(1 0 0 -1 1.444881 28.976958)" font-size="29" font-family="AppleColorEmoji"><tspan y="123.977" x="290.4449">!</tspan></text>
 </g>
 </g>
 </svg>

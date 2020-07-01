@@ -1,5 +1,5 @@
 module.exports = {
-  title: '🌳 ArborVote 🗳',
+  title: 'ArborVote',
   tagline: 'Rational decision-making by quadratic voting on argument trees.',
   projectName: 'ArborVote-docs',
   organizationName: 'ArborVote',
