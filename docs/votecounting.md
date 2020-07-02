@@ -4,4 +4,6 @@ title: Vote Counting
 sidebar_label: Vote Counting
 ---
 
-![Animated example of a the creation, voting, and counting process.](/img/VotingExample.gif)
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+<img alt="Animated example of a the creation, voting, and counting process." src={useBaseUrl('img/VotingExample.gif')} />

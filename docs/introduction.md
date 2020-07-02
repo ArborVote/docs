@@ -3,5 +3,6 @@ id: introduction
 title: Introduction
 sidebar_label: Introduction
 ---
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
-![Animated example of a the creation, voting, and counting process.](/img/LogoWithBackgroundMedium.png)
+<img alt="Docusaurus with Keytar" src={useBaseUrl('img/LogoWithBackgroundMedium.png')} />

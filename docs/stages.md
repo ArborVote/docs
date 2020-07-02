@@ -4,22 +4,25 @@ title: Stages
 sidebar_label: Stages
 ---
 
-The decision-making process in ArborVote takes place in four stages:
+The decision-making process in ArborVote takes place in three stages:
+
 1. Creation
 2. Voting
 3. Counting
 
-![Animated example of a the creation, voting, and counting process.](/img/VotingExample.gif)
-
 ### Creation Stage
 After the question/proposal/debate thesis was posted and a bounty was placed by an issuer,
 the creation phase begins.
-Participants joining the debate can post arguments and have to pay a few. 
+Participants joining the debate can post arguments and for which they have to pay a fee. 
 
+[read more](debating.md)
 
 ### Voting Stage
 Todo
 
+[read more](quadraticvoting.md)
+
 ### Counting Stage
 Todo
 
+[read more](votecounting.md)
