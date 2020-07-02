@@ -5,7 +5,9 @@ sidebar_label: Debating
 ---
 
 ## Argument Creation
+Todo
 ### Fees
+Todo
 
 ## Editing
 Todo
@@ -13,5 +15,6 @@ Todo
 Dispute resolution.
 
 ## Layer Finality
+Todo
 
 
