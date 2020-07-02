@@ -1,6 +1,6 @@
 module.exports = {
   someSidebar: {
-    Overview: ['introduction','stages'],
-    Mechanics: ['debating','quadraticvoting','votecounting'],
+    'Overview': ['introduction','stages'],
+    'Stage Mechanics': ['debating','quadraticvoting','votecounting'],
   },
 };

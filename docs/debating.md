@@ -1,6 +1,6 @@
 ---
 id: debating
-title: Debating
+title: Rational Debating
 sidebar_label: Debating
 ---
 
