@@ -4,14 +4,15 @@ title: Debating
 sidebar_label: Debating
 ---
 
-## Argument Creation
-### Fees
-
-## Editing
+# Argument Creation
 Todo
-### Duplicate Detection
+## Fees
+Todo
+
+# Editing
+Todo
+## Duplicate Detection
 Dispute resolution.
 
-## Layer Finality
-
-
+# Layer Finality
+Todo
