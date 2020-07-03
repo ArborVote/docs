@@ -5,7 +5,7 @@ module.exports = {
   organizationName: 'ArborVote',
   url: 'https://ArborVote.github.io.',
   baseUrl: '/ArborVote-docs/',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/ArborVoteIcon.ico',
   themeConfig: {
     navbar: {
       title: 'ArborVote',

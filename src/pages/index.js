@@ -36,7 +36,7 @@ const features = [
     imageUrl: 'img/Rocket.svg',
     description: (
       <>
-        The decision is formed by accumulating all votes from the leafs of the tree to the root.
+        Decisions are formed by accumulating all votes from the tree leaves to the root.
         Thanks to smart-contracts and external identity providers on the Ethereum blockchain,
         the entire creation, voting, and counting process is transparent, verifiable, and resilient.
       </>
