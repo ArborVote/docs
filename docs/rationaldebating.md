@@ -1,7 +1,7 @@
 ---
-id: debating
+id: rationaldebating
 title: Rational Debating
-sidebar_label: Debating
+sidebar_label: Rational Debating
 ---
 
 ## Argument Creation
@@ -12,7 +12,10 @@ Todo
 ## Editing
 Todo
 ### Duplicate Detection
-Dispute resolution.
+Todo
+
+### Dispute resolution.
+Todo
 
 ## Layer Finality
 Todo

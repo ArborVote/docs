@@ -15,7 +15,7 @@ After the question/proposal/debate thesis was posted and a bounty was placed by 
 the creation phase begins.
 Participants joining the debate can post arguments for which they have to pay a fee. 
 
-[read more](debating.md)
+[read more](rationaldebating.md)
 
 ## Voting Stage
 Todo
