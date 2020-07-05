@@ -25,9 +25,10 @@ const features = [
     description: (
       <>
         It is important to us that every voter has equal voting shares.
-        With quadratic vote cost, we incentivize people to distribute their share on multiple arguments.
-        This self-imposed weighting measures the importance of arguments for the decision
-        and leverages the wisdom of the crowd.
+        With quadratic vote cost, we incentivize people to distribute their share on multiple arguments
+        which leverages the wisdom of the crowd.
+        In the end, the relative vote share measures the importance of an argument for the decision
+
       </>
     ),
   },

@@ -4,14 +4,10 @@ title: Introduction
 sidebar_label: Introduction
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
+
 <link rel="stylesheet" href={useBaseUrl("katex/katex.min.css")} />
 
-<img alt="Docusaurus with Keytar" src={useBaseUrl('img/LogoWithBackgroundMedium.png')} />
+<img alt="Image" src={useBaseUrl('img/LogoWithBackgroundMedium.png')} />
 
-
-$$
-\begin{aligned}
-a &= b\\
-b &= c
-\end{aligned}
-$$
+Welcome to the ArborVote docs where you find a documentation of the voting algorithm with
+its mechanics and economic incentivization strategies.

@@ -13,16 +13,22 @@ The decision-making process in ArborVote takes place in three stages:
 ## Debating Stage
 After the question/proposal/debate thesis was posted and a bounty was placed by an issuer,
 the creation phase begins.
-Participants joining the debate can post arguments for which they have to pay a fee. 
+Participants joining the debate can add arguments to the current layer of the tree. 
+Deeper layers are added over times and prior layers are finalized.
 
 [read more](rationaldebating.md)
 
 ## Voting Stage
-Todo
+After the debating stage ended, the voting phase starts.
+Participants can allocate vote tokens to arguments to vote for or against them.
+Everbody has the same share of vote tokens and vote cost scales quadratic.
 
 [read more](quadraticvoting.md)
 
 ## Counting Stage
-Todo
+After the voting stage ended, the counting phase starts.
+The votes on the individual arguments are accumulated from the leaves of the tree to its root.
+Child arguments pass their accumulated votes to their parent argument.
+Arguments that accumulate more down- than up-votes are ignored and don't pass their votes to their parents.
 
 [read more](votecounting.md)
