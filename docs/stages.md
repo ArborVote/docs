@@ -11,7 +11,7 @@ The decision-making process in ArborVote takes place in three stages:
 3. Counting
 
 ## Debating Stage
-After the question/proposal/debate thesis was posted and a bounty was placed by an issuer,
+After the root thesis was posted and a bounty was placed by an issuer,
 the creation phase begins.
 Participants joining the debate can add arguments to the current layer of the tree. 
 Deeper layers are added over times and prior layers are finalized.
