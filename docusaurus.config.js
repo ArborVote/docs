@@ -1,3 +1,6 @@
+const remarkMath = require("remark-math");
+const rehypeKatex = require("rehype-katex");
+
 module.exports = {
   title: 'ArborVote',
   tagline: 'Rational decision-making by quadratic voting on argument trees.',
@@ -85,6 +88,9 @@ module.exports = {
           // Please change this to your repo.
           //editUrl:
           //  'https://github.com/ArborVote/ArborVote-docs/edit/master/website/',
+          showLastUpdateTime: true,
+          remarkPlugins: [remarkMath],
+          rehypePlugins: [[rehypeKatex, {strict: false}]],
         },
         blog: {
           showReadingTime: true,
