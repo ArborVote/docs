@@ -3,6 +3,9 @@ id: stages
 title: Stages
 sidebar_label: Stages
 ---
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+<img alt="Animated example of the debating, voting, and counting stage." src={useBaseUrl('img/all-stages.gif')} />
 
 The decision-making process in ArborVote takes place in three stages:
 

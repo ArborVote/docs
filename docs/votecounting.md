@@ -7,6 +7,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <link rel="stylesheet" href={useBaseUrl("katex/katex.min.css")} />
 
+<img alt="Animated example of the debating stage." src={useBaseUrl('img/counting.gif')} />
+
 After the [voting stage](quadraticvoting.md) has ended, the vote counting starts.
 For each argument, the **down-votes $V_\text{down}$** are subtracted from the **up-votes $V_\text{up}$** , which we call the **approval of the argument $A_\text{arg}$**.
 Additionally, the approval of all child arguments is taken into account and added to that of the parent.
@@ -30,9 +32,6 @@ Therefore, their approval is not counted for the parent argument, so that they a
 $$
 A_{\text{from child},i} = \text{max}\left\{A_{\text{arg},i},\,0\right\}.
 $$
-
-
-<!--img alt="Animated example of a the creation, voting, and counting process." src={useBaseUrl('img/VotingExample.gif')} /-->
 
 
 

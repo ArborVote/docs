@@ -7,6 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <link rel="stylesheet" href={useBaseUrl("katex/katex.min.css")} />
 
+<img alt="Animated example of the debating stage." src={useBaseUrl('img/debating.gif')} />
 
 ## Argument Creation
 :::note
@@ -53,5 +54,3 @@ Participants can flag arguments that they consider as duplicates.
 This triggers a vote, where a majority must confirm that the newer argument is a duplicate.
 For this, they also have to pay a fee, which they get back together with a reward,
 which is taken form the stake of the duplicate argument.
-
-<!--img alt="Animated example of a the creation, voting, and counting process." src={useBaseUrl('img/VotingExample.gif')} /-->
