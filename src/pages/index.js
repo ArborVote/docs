@@ -24,11 +24,10 @@ const features = [
     imageUrl: 'img/Votebox.svg',
     description: (
       <>
-        It is important to us that every voter has equal voting shares.
+        It is important to us that every voter has fair voting shares.
         With quadratic vote cost, we incentivize people to distribute their share on multiple arguments
         which leverages the wisdom of the crowd.
-        In the end, the relative vote share measures the importance of an argument for the decision
-
+        In the end, the relative vote share measures the importance of an argument for the decision.
       </>
     ),
   },
@@ -40,6 +39,7 @@ const features = [
         Decisions are formed by accumulating all votes from the tree leaves to the root.
         Thanks to smart-contracts and external identity providers on the Ethereum blockchain,
         the entire creation, voting, and counting process is transparent, verifiable, and resilient.
+
       </>
     ),
   },

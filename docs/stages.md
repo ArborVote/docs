@@ -24,7 +24,7 @@ Deeper layers are added over times and prior layers are finalized.
 ## Voting Stage
 After the debating stage ended, the voting phase starts.
 Participants can allocate vote tokens to arguments to vote for or against them.
-Everbody has the same share of vote tokens and vote cost scales quadratic.
+Everybody has the same share of vote tokens and vote cost scales quadratic.
 
 [read more](quadraticvoting.md)
 
