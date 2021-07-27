@@ -49,15 +49,15 @@ module.exports = {
         },
         {
           title: 'Community',
-          items: [/*
+          items: [
             {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: 'https://discord.gg/MezQAC4E',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },*/
+              href: 'https://twitter.com/ArborVote',
+            },
           ],
         },
         {
