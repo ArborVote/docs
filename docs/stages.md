@@ -1,5 +1,5 @@
 ---
-id: stages
+slug: stages
 title: Stages
 sidebar_label: Stages
 ---

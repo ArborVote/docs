@@ -3,7 +3,7 @@ const rehypeKatex = require("rehype-katex");
 
 module.exports = {
   title: 'ArborVote',
-  tagline: 'Rational decision-making by quadratic voting on argument trees.',
+  tagline: 'A voting module for deliberative, rational decision-making using argument trees that can be plugged into DApps and DAOs.',
   projectName: 'ArborVote-docs',
   organizationName: 'ArborVote',
   url: 'https://ArborVote.github.io.',
@@ -16,7 +16,7 @@ module.exports = {
         alt: 'ArborVoteIcon',
         src: 'img/ArborVoteIcon.svg',
       },
-      links: [
+      items: [
         {
           to: 'docs/',
           activeBasePath: 'docs',
@@ -83,7 +83,7 @@ module.exports = {
       {
         docs: {
           // It is recommended to set document id as docs home page (`docs/` path).
-          homePageId: 'introduction',
+          //homePageId: 'introduction',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           //editUrl:

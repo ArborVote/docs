@@ -1,5 +1,5 @@
 ---
-id: rationaldebating
+slug: rationaldebating
 title: Rational Debating
 sidebar_label: Rational Debating
 ---

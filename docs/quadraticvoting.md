@@ -1,5 +1,5 @@
 ---
-id: quadraticvoting
+slug: quadraticvoting
 title: Quadratic Voting
 sidebar_label: Quadratic Voting
 ---

@@ -1,5 +1,5 @@
 ---
-id: votecounting
+slug: votecounting
 title: Vote Counting
 sidebar_label: Vote Counting
 ---

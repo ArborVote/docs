@@ -20,12 +20,12 @@ const features = [
     ),
   },
   {
-    title: <>Democratic Quadratic Voting</>,
+    title: <>Democratic Voting</>,
     imageUrl: 'img/Votebox.svg',
     description: (
       <>
         It is important to us that every voter has fair voting shares.
-        With quadratic vote cost, we incentivize people to distribute their share on multiple arguments
+        We incentivize people to distribute their share on multiple arguments
         which leverages the wisdom of the crowd.
         In the end, the relative vote share measures the importance of an argument for the decision.
       </>
@@ -33,13 +33,13 @@ const features = [
   },
   {
     title: <>Decentralized Decision-Making</>,
-    imageUrl: 'img/Rocket.svg',
+    imageUrl: 'img/Abacus.svg',
     description: (
       <>
         Decisions are formed by accumulating all votes from the tree leaves to the root.
-        Thanks to smart-contracts and external identity providers on the Ethereum blockchain,
-        the entire creation, voting, and counting process is transparent, verifiable, and resilient.
-
+        Thanks to smart-contracts and digital identities on the Ethereum blockchain,
+        the entire curation, voting, and tallying process is transparent, verifiable, and resilient,
+        which legitimizes the decision.
       </>
     ),
   },
@@ -66,21 +66,28 @@ function Home() {
   return (
     <Layout
       title={`Welcome to ${siteConfig.title}`}
-      description="ArborVote is a decentralized platform for rational decision-making by quadratic voting on argument trees on the Ethereum blockchain.">
+      description="ArborVote is a decentralized platform for rational decision-making by voting on argument trees on the Ethereum blockchain.">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           <div className={styles.buttons}>
             <Link
-              className={clsx(
-                'button button--outline button--secondary button--lg',
+              className={clsx('button button--outline button--secondary button--lg',
                 styles.getStarted,
               )}
               to={useBaseUrl('docs/')}>
               Get Started
-            </Link>
-          </div>
+            </Link>&nbsp;&nbsp;
+            <Link
+              className={clsx(
+                        'button button--outline button--secondary button--lg',
+                        styles.getStarted,
+                    )}
+                    to={'https://github.com/ArborVote/ArborVote-whitepaper/blob/main/Paper.pdf'}>
+                    Whitepaper
+                </Link>
+            </div>
         </div>
       </header>
       <main>
