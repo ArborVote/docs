@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>ArborVote Blog</title>
+        <link>https://ArborVote.github.io./ArborVote-docs/blog</link>
+        <description>ArborVote Blog</description>
+        <lastBuildDate>Tue, 27 Jul 2021 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[ETHcc[4] Update]]></title>
+            <link>https://ArborVote.github.io./ArborVote-docs/blog/ETHcc4</link>
+            <guid>ETHcc4</guid>
+            <pubDate>Tue, 27 Jul 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Now that I have finished my Ph.D. 🎓, I will be working on ArborVote with full commitment.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Welcome]]></title>
+            <link>https://ArborVote.github.io./ArborVote-docs/blog/welcome</link>
+            <guid>welcome</guid>
+            <pubDate>Wed, 01 Jul 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Welcome to the ArborVote project!]]></description>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkarbor_vote_docs=self.webpackChunkarbor_vote_docs||[]).push([[351],{8472:function(o){o.exports=JSON.parse('{"allTagsPath":"/ArborVote-docs/blog/tags","slug":"democracy","name":"democracy","count":2,"permalink":"/ArborVote-docs/blog/tags/democracy"}')}}]);

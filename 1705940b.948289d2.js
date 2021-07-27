@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{141:function(o){o.exports=JSON.parse('{"allTagsPath":"/ArborVote-docs/blog/tags","slug":"democracy","name":"democracy","count":1,"permalink":"/ArborVote-docs/blog/tags/democracy"}')}}]);

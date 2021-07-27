@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://ArborVote.github.io./ArborVote-docs/blog</id>
+    <title>ArborVote Blog</title>
+    <updated>2021-07-27T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://ArborVote.github.io./ArborVote-docs/blog"/>
+    <subtitle>ArborVote Blog</subtitle>
+    <icon>https://ArborVote.github.io./ArborVote-docs/img/ArborVoteIcon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[ETHcc[4] Update]]></title>
+        <id>ETHcc4</id>
+        <link href="https://ArborVote.github.io./ArborVote-docs/blog/ETHcc4"/>
+        <updated>2021-07-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Now that I have finished my Ph.D. 🎓, I will be working on ArborVote with full commitment.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Welcome]]></title>
+        <id>welcome</id>
+        <link href="https://ArborVote.github.io./ArborVote-docs/blog/welcome"/>
+        <updated>2020-07-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Welcome to the ArborVote project!]]></summary>
+    </entry>
+</feed>
