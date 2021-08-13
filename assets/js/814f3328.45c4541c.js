@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkarbor_vote_docs=self.webpackChunkarbor_vote_docs||[]).push([[535],{6353:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"ETHcc[4] Update","permalink":"/ArborVote-docs/blog/ETHcc4"},{"title":"Welcome","permalink":"/ArborVote-docs/blog/welcome"}]}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkarbor_vote_docs=self.webpackChunkarbor_vote_docs||[]).push([[403],{2834:function(o){o.exports=JSON.parse('{"allTagsPath":"/ArborVote-docs/blog/tags","slug":"collaboration","name":"collaboration","count":1,"permalink":"/ArborVote-docs/blog/tags/collaboration"}')}}]);
