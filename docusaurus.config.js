@@ -3,7 +3,7 @@ const rehypeKatex = require("rehype-katex");
 
 module.exports = {
   title: 'ArborVote',
-  tagline: 'A voting module for deliberative, rational decision-making using argument trees that can be plugged into DApps and DAOs.',
+  tagline: 'A voting module on the Ethereum blockchain for deliberative decision-making using argument trees.',
   projectName: 'ArborVote-docs',
   organizationName: 'ArborVote',
   url: 'https://ArborVote.github.io.',
