@@ -38,12 +38,16 @@ module.exports = {
           title: 'Docs',
           items: [
             {
+              label: 'Overview',
+              to: 'docs/introduction/',
+            },
+            {
               label: 'Phases',
               to: 'docs/phases/',
             },
             {
-              label: 'Vote Counting',
-              to: 'docs/votecounting/',
+              label: 'Incentives',
+              to: 'docs/incentives/',
             },
           ],
         },

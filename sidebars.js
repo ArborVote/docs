@@ -16,9 +16,9 @@ module.exports = {
       'ratingmarkets',
       'payout'
     ],
-    'Technical Implementation': [
-      'debatefactory',
-      'layer2'
-    ],
+    //'Technical Implementation': [
+    //  'debatefactory',
+    //  'layer2'
+    //]
   },
 };
