@@ -1,6 +1,24 @@
 module.exports = {
   someSidebar: {
-    'Overview': ['introduction','stages'],
-    'Stage Mechanics': ['rationaldebating','quadraticvoting','votecounting'],
+    'Overview': [
+      'introduction',
+      'phases',
+      'stakeholders'
+    ],
+    'Phases': [
+      'editing',
+      'rating',
+      'tallying'
+    ],
+    'Incentives': [
+      'incentives',
+      'curation',
+      'ratingmarkets',
+      'payout'
+    ],
+    'Technical Implementation': [
+      'debatefactory',
+      'layer2'
+    ],
   },
 };

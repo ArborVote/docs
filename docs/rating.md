@@ -1,15 +1,13 @@
 ---
-slug: quadraticvoting
-title: Quadratic Voting
-sidebar_label: Quadratic Voting
+slug: rating
+title: Rating Phase
+sidebar_label: Rating Phase
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <link rel="stylesheet" href={useBaseUrl("katex/katex.min.css")} />
 
-<img alt="Animated example of the debating stage." src={useBaseUrl('img/voting.gif')} />
-
-After the [debating stage](rationaldebating.md) has ended, the voting phase begins. 
+After the [editing phase](editing.md) has ended, the voting phase begins. 
 Each joined participant has the same number of **initial vote tokens $T_{\text{vote},0}$** which
 she/he can use to support or oppose arguments.
 

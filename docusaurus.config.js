@@ -38,8 +38,8 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Stages',
-              to: 'docs/stages/',
+              label: 'Phases',
+              to: 'docs/phases/',
             },
             {
               label: 'Vote Counting',

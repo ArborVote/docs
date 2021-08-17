@@ -1,15 +1,13 @@
 ---
-slug: votecounting
-title: Vote Counting
-sidebar_label: Vote Counting
+slug: tallying
+title: Tallying Phase
+sidebar_label: Tallying Phase
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <link rel="stylesheet" href={useBaseUrl("katex/katex.min.css")} />
 
-<img alt="Animated example of the debating stage." src={useBaseUrl('img/counting.gif')} />
-
-After the [voting stage](quadraticvoting.md) has ended, the vote counting starts.
+After the [voting stage](rating.md) has ended, the vote counting starts.
 For each argument, the **down-votes $V_\text{down}$** are subtracted from the **up-votes $V_\text{up}$** , which we call the **approval of the argument $A_\text{arg}$**.
 Additionally, the approval of all child arguments is taken into account and added to that of the parent.
 Thus, before being able to calculate the approval of an argument, the approval of all child sub-trees must be calculated first,
