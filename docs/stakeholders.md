@@ -5,13 +5,7 @@ sidebar_label: Stakeholders
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-Four stakeholder types participate in the ArborVote decision-making process:
-
-1. 🧝 Creator
-2. 🧑‍🏫 debaters
-3. 👮 curators
-4. 🧑‍⚖ jurors
-5. 🙋 voters
+Five stakeholder types participate in ArborVote:
 
 ## 🧝 Creator
 The creator opens the debate, chooses parameters, 
