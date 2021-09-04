@@ -7,7 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <link rel="stylesheet" href={useBaseUrl("katex/katex.min.css")} />
 
-ArborVote is a module for rational decision-making based on arguments that can be used in DAPPs and DAOs. 
+ArborVote is a module for rational decision-making based on arguments that can be used in DApps and DAOs. 
 
 Decision-making based on arguments is unpopular because of the bureaucratic overhead connected to it.
 The centralized online platform [kialo.com](https://www.kialo.com/) overcame this issue and keeps debates rational,

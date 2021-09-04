@@ -12,7 +12,6 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 **ToDo**
 :::
 
-
 Participants that performed above average can redeem their debate tokens for a share of the debate rewards.
 These can be monetary, in the form of reputation, or both.
 

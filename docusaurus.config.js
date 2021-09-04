@@ -25,7 +25,7 @@ module.exports = {
         },
         {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/ArborVote/ArborVote',
+          href: 'https://github.com/ArborVote/ArborVote-contracts',
           label: 'GitHub',
           position: 'right',
         },
