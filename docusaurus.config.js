@@ -25,7 +25,7 @@ module.exports = {
         },
         {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/ArborVote/ArborVote-contracts',
+          href: 'https://github.com/ArborVote/',
           label: 'GitHub',
           position: 'right',
         },
@@ -73,7 +73,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/ArborVote/ArborVote',
+              href: 'https://github.com/ArborVote/',
             },
           ],
         },
