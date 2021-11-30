@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkarbor_vote_docs=self.webpackChunkarbor_vote_docs||[]).push([[468],{6406:function(s){s.exports=JSON.parse('{"allTagsPath":"/ArborVote-docs/blog/tags","slug":"news","name":"news","count":2,"permalink":"/ArborVote-docs/blog/tags/news"}')}}]);

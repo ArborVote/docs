@@ -13,6 +13,13 @@
         <link href="https://ArborVote.github.io./ArborVote-docs/blog/TEC-Spotlight"/>
         <updated>2021-07-31T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[ArborVote was presented at the Token Engineering Commons (TEC) spotlight presentation.]]></summary>
+        <content type="html"><![CDATA[<p>ArborVote was presented at the <a href="https://twitter.com/tecmns/status/1421430439227518976">Token Engineering Commons (TEC) spotlight presentation</a>.<br/>
+You can watch the presentation on <a href="https://youtu.be/t9fIkVRgWa0?t=2558">YouTube 📺</a> . </p><p>Also make sure to check out the work of the amazing folks at
+<a href="https://tecommons.org/">TEC 🌱</a> and <a href="https://commonsstack.org">The Commons Stack 🙌</a> .</p>]]></content>
+        <author>
+            <name>Michael A. Heuer</name>
+            <uri>https://github.com/Michael-A-Heuer</uri>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[ETHcc[4] Update]]></title>
@@ -20,6 +27,12 @@
         <link href="https://ArborVote.github.io./ArborVote-docs/blog/ETHcc4"/>
         <updated>2021-07-27T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Now that I have finished my Ph.D. 🎓, I will be working on ArborVote with full commitment.]]></summary>
+        <content type="html"><![CDATA[<p>Now that I have finished my Ph.D. 🎓, I will be working on ArborVote with full commitment.<br/>
+Last week, ArborVote was at <a href="https://ethcc.io/">ETHcc[4]</a> and is getting traction in the builder communities.</p><p>Stay tuned for updates! 🚀</p>]]></content>
+        <author>
+            <name>Michael A. Heuer</name>
+            <uri>https://github.com/Michael-A-Heuer</uri>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
@@ -27,5 +40,15 @@
         <link href="https://ArborVote.github.io./ArborVote-docs/blog/welcome"/>
         <updated>2020-07-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Welcome to the ArborVote project!]]></summary>
+        <content type="html"><![CDATA[<p>Welcome to the ArborVote project!</p><p>The project started at the ETHLondon Hackathon in March 2020.
+The idea was to build decentralized debate platform for
+rational decision-making  based on quadratic voting in a tree of pro and con arguments.
+This form of democratic decision making is known under the term
+<a href="https://en.wikipedia.org/wiki/Deliberative_democracy">deliberative democracy</a>.</p><p>With the global challenges ahead, this is something the world needs right now. 🌍<br/>
+So let&#x27;s be constructive and build a decentralized and democratic future together!</p>]]></content>
+        <author>
+            <name>Michael A. Heuer</name>
+            <uri>https://github.com/Michael-A-Heuer</uri>
+        </author>
     </entry>
 </feed>
