@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>ArborVote Blog</title>
-        <link>https://ArborVote.github.io./ArborVote-docs/blog</link>
+        <link>https://ArborVote.github.io./docs/blog</link>
         <description>ArborVote Blog</description>
         <lastBuildDate>Sat, 31 Jul 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
             <title><![CDATA[TEC Spotlight Presentation]]></title>
-            <link>https://ArborVote.github.io./ArborVote-docs/blog/TEC-Spotlight</link>
+            <link>https://ArborVote.github.io./docs/blog/TEC-Spotlight</link>
             <guid>TEC-Spotlight</guid>
             <pubDate>Sat, 31 Jul 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[ArborVote was presented at the Token Engineering Commons (TEC) spotlight presentation.]]></description>
@@ -19,7 +19,7 @@ You can watch the presentation on <a href="https://youtu.be/t9fIkVRgWa0?t=2558">
         </item>
         <item>
             <title><![CDATA[ETHcc[4] Update]]></title>
-            <link>https://ArborVote.github.io./ArborVote-docs/blog/ETHcc4</link>
+            <link>https://ArborVote.github.io./docs/blog/ETHcc4</link>
             <guid>ETHcc4</guid>
             <pubDate>Tue, 27 Jul 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Now that I have finished my Ph.D. 🎓, I will be working on ArborVote with full commitment.]]></description>
@@ -28,7 +28,7 @@ Last week, ArborVote was at <a href="https://ethcc.io/">ETHcc[4]</a> and is gett
         </item>
         <item>
             <title><![CDATA[Welcome]]></title>
-            <link>https://ArborVote.github.io./ArborVote-docs/blog/welcome</link>
+            <link>https://ArborVote.github.io./docs/blog/welcome</link>
             <guid>welcome</guid>
             <pubDate>Wed, 01 Jul 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[Welcome to the ArborVote project!]]></description>

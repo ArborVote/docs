@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkarbor_vote_docs=self.webpackChunkarbor_vote_docs||[]).push([[279],{1888:function(e){e.exports=JSON.parse('{"allTagsPath":"/docs/blog/tags","slug":"/docs/blog/tags/conference","name":"Conference","count":1,"permalink":"/docs/blog/tags/conference"}')}}]);

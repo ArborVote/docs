@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkarbor_vote_docs=self.webpackChunkarbor_vote_docs||[]).push([[465],{9569:function(s){s.exports=JSON.parse('{"allTagsPath":"/docs/blog/tags","slug":"/docs/blog/tags/rationalism","name":"Rationalism","count":1,"permalink":"/docs/blog/tags/rationalism"}')}}]);

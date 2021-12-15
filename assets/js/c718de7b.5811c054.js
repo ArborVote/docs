@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkarbor_vote_docs=self.webpackChunkarbor_vote_docs||[]).push([[862],{1815:function(s){s.exports=JSON.parse('{"allTagsPath":"/docs/blog/tags","slug":"/docs/blog/tags/da-os","name":"DAOs","count":1,"permalink":"/docs/blog/tags/da-os"}')}}]);

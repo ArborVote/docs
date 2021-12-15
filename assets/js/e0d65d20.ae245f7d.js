@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkarbor_vote_docs=self.webpackChunkarbor_vote_docs||[]).push([[303],{4819:function(o){o.exports=JSON.parse('{"allTagsPath":"/docs/blog/tags","slug":"/docs/blog/tags/democracy","name":"Democracy","count":1,"permalink":"/docs/blog/tags/democracy"}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkarbor_vote_docs=self.webpackChunkarbor_vote_docs||[]).push([[171],{5495:function(o){o.exports=JSON.parse('{"allTagsPath":"/docs/blog/tags","slug":"/docs/blog/tags/collaboration","name":"Collaboration","count":1,"permalink":"/docs/blog/tags/collaboration"}')}}]);
