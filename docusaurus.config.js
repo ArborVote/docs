@@ -4,10 +4,10 @@ const rehypeKatex = require("rehype-katex");
 module.exports = {
   title: 'ArborVote',
   tagline: 'A voting module on the Ethereum blockchain for deliberative decision-making using argument trees.',
-  projectName: 'ArborVote-docs',
+  projectName: 'docs',
   organizationName: 'ArborVote',
   url: 'https://ArborVote.github.io.',
-  baseUrl: '/ArborVote-docs/',
+  baseUrl: '/docs/',
   favicon: 'img/ArborVoteIcon.ico',
   themeConfig: {
     navbar: {
@@ -100,7 +100,7 @@ module.exports = {
           showReadingTime: true,
           // Please change this to your repo.
           //editUrl:
-          //  'https://github.com/ArborVote/ArborVote-docs/edit/master/website/blog/',
+          //  'https://github.com/ArborVote/docs/edit/master/website/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

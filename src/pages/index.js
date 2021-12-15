@@ -84,7 +84,7 @@ function Home() {
                         'button button--outline button--secondary button--lg',
                         styles.getStarted,
                     )}
-                    to={'https://github.com/ArborVote/ArborVote-whitepaper/releases/latest/download/whitepaper.pdf'}>
+                    to={'https://github.com/ArborVote/whitepaper/releases/latest/download/whitepaper.pdf'}>
                     Whitepaper
                 </Link>
             </div>
