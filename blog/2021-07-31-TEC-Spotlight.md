@@ -1,10 +1,7 @@
 ---
 slug: TEC-Spotlight
 title: TEC Spotlight Presentation
-author: Michael A. Heuer
-author_title: Researcher & Developer, Founder of ArborVote
-author_url: https://github.com/Michael-A-Heuer
-author_image_url: https://avatars1.githubusercontent.com/u/20623991?s=400&v=4
+authors: [michael]
 tags: [News, Collaboration, DAOs]
 ---
 

@@ -1,111 +1,136 @@
-const remarkMath = require("remark-math");
-const rehypeKatex = require("rehype-katex");
+// @ts-check
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
 
-module.exports = {
+/** @type {import('@docusaurus/types').Config} */
+const config = {
   title: 'ArborVote',
   tagline: 'A voting module on the Ethereum blockchain for deliberative decision-making using argument trees.',
-  projectName: 'docs',
-  organizationName: 'ArborVote',
-  url: 'https://ArborVote.github.io.',
-  baseUrl: '/docs/',
   favicon: 'img/ArborVoteIcon.ico',
-  themeConfig: {
-    navbar: {
-      title: 'ArborVote',
-      logo: {
-        alt: 'ArborVoteIcon',
-        src: 'img/ArborVoteIcon.svg',
-      },
-      items: [
-        {
-          to: 'docs/',
-          activeBasePath: 'docs',
-          label: 'Docs',
-          position: 'left',
-        },
-        {to: 'blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/ArborVote/',
-          label: 'GitHub',
-          position: 'right',
-        },
-      ],
-    },
-    footer: {
-      style: 'dark',
-      links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Overview',
-              to: 'docs/',
-            },
-            {
-              label: 'Phases',
-              to: 'docs/phases/',
-            },
-            {
-              label: 'Incentives',
-              to: 'docs/incentives/',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Discord',
-              href: 'https://discord.gg/p4ZvtnprEE',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/ArborVote',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: 'blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/ArborVote/',
-            },
-          ],
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} Michael A. Heuer.`,
+
+  url: 'https://arborvote.github.io',
+  baseUrl: '/docs/',
+  organizationName: 'ArborVote',
+  projectName: 'docs',
+  deploymentBranch: 'gh-pages',
+
+  onBrokenLinks: 'warn',
+
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
     },
   },
+
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en'],
+  },
+
+  stylesheets: [
+    {
+      href: 'https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css',
+      type: 'text/css',
+      crossorigin: 'anonymous',
+    },
+  ],
+
   presets: [
     [
-      '@docusaurus/preset-classic',
-      {
+      'classic',
+      /** @type {import('@docusaurus/preset-classic').Options} */
+      ({
         docs: {
-          // It is recommended to set document id as docs home page (`docs/` path).
-          //homePageId: 'introduction',
-          sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          //editUrl:
-          //  'https://github.com/ArborVote/ArborVote-docs/edit/master/website/',
+          sidebarPath: './sidebars.js',
           showLastUpdateTime: true,
           remarkPlugins: [remarkMath],
           rehypePlugins: [[rehypeKatex, {strict: false}]],
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          //editUrl:
-          //  'https://github.com/ArborVote/docs/edit/master/website/blog/',
+          onUntruncatedBlogPosts: 'ignore',
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: './src/css/custom.css',
         },
-      },
+      }),
     ],
   ],
+
+  themeConfig:
+    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    ({
+      navbar: {
+        title: 'ArborVote',
+        logo: {
+          alt: 'ArborVoteIcon',
+          src: 'img/ArborVoteIcon.svg',
+        },
+        items: [
+          {
+            to: 'docs/',
+            activeBasePath: 'docs',
+            label: 'Docs',
+            position: 'left',
+          },
+          {to: 'blog', label: 'Blog', position: 'left'},
+          {
+            href: 'https://github.com/ArborVote/',
+            label: 'GitHub',
+            position: 'right',
+          },
+        ],
+      },
+      footer: {
+        style: 'dark',
+        links: [
+          {
+            title: 'Docs',
+            items: [
+              {
+                label: 'Overview',
+                to: 'docs/',
+              },
+              {
+                label: 'Phases',
+                to: 'docs/phases/',
+              },
+              {
+                label: 'Incentives',
+                to: 'docs/incentives/',
+              },
+            ],
+          },
+          {
+            title: 'Community',
+            items: [
+              {
+                label: 'Discord',
+                href: 'https://discord.gg/p4ZvtnprEE',
+              },
+              {
+                label: 'Twitter',
+                href: 'https://twitter.com/ArborVote',
+              },
+            ],
+          },
+          {
+            title: 'More',
+            items: [
+              {
+                label: 'Blog',
+                to: 'blog',
+              },
+              {
+                label: 'GitHub',
+                href: 'https://github.com/ArborVote/',
+              },
+            ],
+          },
+        ],
+        copyright: `Copyright © ${new Date().getFullYear()} Michael A. Heuer.`,
+      },
+    }),
 };
+
+export default config;
