@@ -9,7 +9,7 @@ import styles from './styles.module.css';
 const features = [
   {
     title: <>Trees of Arguments</>,
-    imageUrl: 'img/Tree.svg',
+    imageUrl: 'img/feature-tree.svg',
     description: (
       <>
         We don't want to live in a world where we can only say yes or no.
@@ -21,7 +21,7 @@ const features = [
   },
   {
     title: <>Argument Markets</>,
-    imageUrl: 'img/Votebox.svg',
+    imageUrl: 'img/feature-market.svg',
     description: (
       <>
         Every argument carries a rating market. Participants stake vote tokens on
@@ -33,7 +33,7 @@ const features = [
   },
   {
     title: <>Decentralized Decision-Making</>,
-    imageUrl: 'img/Abacus.svg',
+    imageUrl: 'img/feature-tally.svg',
     description: (
       <>
         When rating ends, anyone can trigger the tally: ratings fold from the leaves

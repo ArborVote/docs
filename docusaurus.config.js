@@ -33,6 +33,11 @@ const config = {
       type: 'text/css',
       crossorigin: 'anonymous',
     },
+    {
+      // The frontend's exact font trio (see frontend/index.html).
+      href: 'https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500&family=Public+Sans:wght@400;500;600&display=swap',
+      type: 'text/css',
+    },
   ],
 
   plugins: [
@@ -76,6 +81,12 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      // The app is light-only paper; the docs match instead of shipping a second, dark identity.
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: true,
+        respectPrefersColorScheme: false,
+      },
       navbar: {
         title: 'ArborVote',
         logo: {
@@ -98,7 +109,7 @@ const config = {
         ],
       },
       footer: {
-        style: 'dark',
+        style: 'light',
         links: [
           {
             title: 'Docs',
