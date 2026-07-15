@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkarbor_vote_docs=self.webpackChunkarbor_vote_docs||[]).push([[247],{4866:function(s){s.exports=JSON.parse('{"allTagsPath":"/docs/blog/tags","slug":"/docs/blog/tags/news","name":"News","count":2,"permalink":"/docs/blog/tags/news"}')}}]);
