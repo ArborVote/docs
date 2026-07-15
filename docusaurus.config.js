@@ -5,7 +5,7 @@ import rehypeKatex from 'rehype-katex';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'ArborVote',
-  tagline: 'A voting module on the Ethereum blockchain for deliberative decision-making using argument trees.',
+  tagline: 'Structured debates on Ethereum — argument trees, rated by markets, tallied on-chain.',
   favicon: 'img/ArborVoteIcon.ico',
 
   url: 'https://arborvote.github.io',

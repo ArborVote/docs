@@ -8,26 +8,26 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: <>Trees of Rational Arguments</>,
+    title: <>Trees of Arguments</>,
     imageUrl: 'img/Tree.svg',
     description: (
       <>
         We don't want to live in a world where we can only say yes or no.
-        Deliberation and rationalism should be the basis for important decisions.
-        Creation of arguments in a tree structure invites people to consider multiple perspectives
-        and jump-starts them into the debate.
+        A debate is a tree: a thesis at the root, pro and con arguments beneath it,
+        counter-arguments beneath those. The structure invites multiple perspectives
+        and puts every claim next to its strongest objections.
       </>
     ),
   },
   {
-    title: <>Democratic Voting</>,
+    title: <>Argument Markets</>,
     imageUrl: 'img/Votebox.svg',
     description: (
       <>
-        It is important to us that every voter has fair voting shares.
-        We incentivize people to distribute their share on multiple arguments
-        which leverages the wisdom of the crowd.
-        In the end, the relative vote share measures the importance of an argument for the decision.
+        Every argument carries a rating market. Participants stake vote tokens on
+        arguments being underrated or overrated and profit when the rating corrects
+        their way — being right early is what pays, so ratings converge on the
+        debate's honest reading.
       </>
     ),
   },
@@ -36,10 +36,10 @@ const features = [
     imageUrl: 'img/Abacus.svg',
     description: (
       <>
-        Decisions are formed by accumulating all votes from the tree leaves to the root.
-        Thanks to smart-contracts and digital identities on the Ethereum blockchain,
-        the entire curation, voting, and tallying process is transparent, verifiable, and resilient,
-        which legitimizes the decision.
+        When rating ends, anyone can trigger the tally: ratings fold from the leaves
+        to the root, and the thesis is confirmed or objected. Everything runs in a
+        smart contract on Ethereum — transparent, verifiable, and open for other
+        contracts to consume.
       </>
     ),
   },
@@ -66,7 +66,7 @@ function Home() {
   return (
     <Layout
       title={`Welcome to ${siteConfig.title}`}
-      description="ArborVote is a decentralized platform for rational decision-making by voting on argument trees on the Ethereum blockchain.">
+      description="ArborVote structures debates as argument trees on Ethereum: rating markets weigh every argument, and the tally confirms or objects the thesis.">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
