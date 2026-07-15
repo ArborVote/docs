@@ -1,24 +1,26 @@
 ---
 slug: stakeholders
-title: Stakeholders of the Debate
+title: Stakeholders
 sidebar_label: Stakeholders
 ---
-import useBaseUrl from '@docusaurus/useBaseUrl';
 
-Five stakeholder types participate in ArborVote:
+Three parties interact with a debate.
 
 ## 🧝 Creator
-The creator opens the debate, chooses parameters, 
-and creates the statement forming the root node of the debate tree.
 
-## 🧑‍🏫 Debaters
-Debaters author arguments or fact nodes and add them to the debate tree.
+The **creator** opens the debate: they write the thesis — the statement being decided — and choose the schedule's three durations (locking window, editing, rating). They may attach an ERC-20 [bounty](bounty) for the debate's net winners, and they sweep whatever of it goes unclaimed after the claim window. The thesis forms the root of the argument tree and is final from the start.
 
-## 👮 Curators
-Curators can flag and propose edits to the content that authors can accept or reject.
+## 🙋 Participants
 
-## 🧑‍⚖ Jurors 
-In the latter case, a dispute is raised that is resolved by jurors in a digital court.
+**Participants** are personhood-verified accounts (via the deployment's identity registry) that have joined the debate. Every participant receives the same budget of [vote tokens](tokens) and can do everything the debate offers:
 
-## 🙋 Voters
-Lastly, voters can invest debate tokens to rate the impact of nodes in the debate tree.
+- add, revise, and move their own draft arguments during the [Editing phase](editing),
+- stake on [argument markets](argument-markets) during the [Rating phase](rating),
+- redeem their shares and claim their authored arguments' fees after the debate ends, and
+- claim their [bounty](bounty) share if they ended a net winner.
+
+There is deliberately no distinction between "debaters" and "voters" — anyone who joins can both argue and rate.
+
+## 📡 Outcome consumers
+
+**Consumers** are the contracts and organisations that act on a finished debate's [outcome](tallying) — a DAO spending funds on a confirmed thesis, a bot executing a decision. The outcome is a deliberation signal, not a manipulation-proof oracle, so consumers bring their own guardrails: bind to the exact thesis content, require a quorum and margin, timelock past the claim window, keep a veto path.

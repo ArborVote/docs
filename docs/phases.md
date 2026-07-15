@@ -1,34 +1,26 @@
 ---
 slug: phases
-title: Phases 
+title: Phases
 sidebar_label: Phases
 ---
-import useBaseUrl from '@docusaurus/useBaseUrl';
 
-The decision-making process in ArborVote is divided into three phases:
+Every debate runs on its own schedule, chosen by the creator at creation through three durations:
 
-1. Editing
-2. Rating
-3. Tallying
+- the **locking window** — how long a new or edited argument stays a draft before it locks in,
+- the **editing duration** — the length of the Editing phase; longer than the locking window, so arguments can lock in and be replied to,
+- the **rating duration** — the length of the Rating phase; at least one locking window, so every argument is final by the time the tally runs.
 
-## Editing Phase
-After the root node was posted and a bounty was placed by an issuer,
-the editing phase begins.
-Participants joining the debate add arguments to the tree.
+| Phase | What happens |
+|---|---|
+| **Editing** | Participants build the argument tree beneath the thesis; drafts lock in one locking window after their last edit. |
+| **Rating** | Participants stake vote tokens on [argument markets](argument-markets). |
+| **Tallying** | The rating window has closed; anyone can trigger the tally. |
+| **Finished** | The tally has run: the [outcome](tallying) is fixed, shares redeem, and [bounty](bounty) claims open. |
 
-[read more](editing.md)
+There are no phase transactions except the tally: Editing, Rating, and Tallying follow purely from the clock, and the tally is the single transaction that finishes a debate — its terminal phase.
 
-## Rating Phase
-After the debating stage ended, the voting phase starts.
-Participants can allocate vote tokens to arguments to vote for or against them.
-Everybody has the same share of vote tokens
+Scales freely: minutes for a quick, poll-like debate, days for a thorough governance decision.
 
-[read more](rating.md)
+## Joining
 
-## Tallying Phase
-After the rating phase ended, the tallying phase starts.
-The votes on the individual arguments are accumulated from the leaves of the tree to its root.
-Child arguments pass their accumulated votes to their parent argument.
-Arguments that accumulate more down- than up-votes are ignored and don't pass their votes to their parents.
-
-[read more](tallying.md)
+A debate is open for joining during the Editing and Rating phases. Joining requires a personhood verification — the deployment's identity registry, e.g. [Proof of Humanity](https://proofofhumanity.id/) — and grants the participant their initial [vote tokens](tokens), the same amount for everyone.

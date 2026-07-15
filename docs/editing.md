@@ -3,24 +3,19 @@ slug: editing
 title: Editing Phase
 sidebar_label: Editing Phase
 ---
-import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<link rel="stylesheet" href={useBaseUrl("katex/katex.min.css")} />
+During the Editing phase, participants grow the argument tree beneath the thesis.
 
-## Node Creation
-After the debate is started by the issuer of the root node,
-anyone can add nodes to the tree.
-Beside the root node, two more node types exist:
-1. argument nodes
-2. fact nodes
+## Adding arguments
 
-In contrast to root and argument nodes, no sub-nodes can be posted below fact nodes 
-so that they always constitute the leaves of the tree.
+Any participant can add an argument below a **final** parent — the thesis itself, or any argument that has locked in. Each argument
 
-### Editing-Period and Finality
-Within a specified editing-period that starts after the node creation, 
-authors of nodes can still edit the argument text or move the argument. 
-Moreover, the author can add child nodes below.
+- **supports (pro) or attacks (con) its parent** — this polarity determines the sign of its influence at [tallying](tallying),
+- carries its **content** (the argument text lives off-chain; the tree stores a reference to it) — evidence and sources belong inside this content; there is no separate "fact" node type,
+- stakes an author-chosen **deposit** in [vote tokens](tokens) (at least the minimum), which seeds the argument's [market](argument-markets) at the author's chosen initial approval and sets its starting weight.
 
-After the editing period is over, the node is finalized and cannot be edited or moved any more.
-This finality allows other debaters to react to argument nodes and add child nodes below.
+## Locking window and finality
+
+A newly added argument is a **draft** for one locking window: during this time, the author — and only the author — can revise its content or move it beneath a different parent (each of which re-arms the window). When the window elapses, the argument **locks in automatically** — no transaction, no poke — and becomes final: immutable, tradeable, and tallied.
+
+This finality is what makes reacting safe: nobody has to fear that an argument they replied to changes under them, so child arguments can only be attached to final parents.

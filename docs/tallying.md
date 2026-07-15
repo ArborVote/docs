@@ -1,35 +1,29 @@
 ---
 slug: tallying
-title: Tallying Phase
-sidebar_label: Tallying Phase
+title: Tallying & Outcome
+sidebar_label: Tallying & Outcome
 ---
-import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<link rel="stylesheet" href={useBaseUrl("katex/katex.min.css")} />
+After the [Rating phase](rating) has ended, anyone can trigger the tally. It aggregates the final state of all [argument markets](argument-markets) into a single decision on the thesis, and it is the one transaction that finishes a debate.
 
-After the [voting stage](rating.md) has ended, the vote counting starts.
-For each argument, the **down-votes $V_\text{down}$** are subtracted from the **up-votes $V_\text{up}$** , which we call the **approval of the argument $A_\text{arg}$**.
-Additionally, the approval of all child arguments is taken into account and added to that of the parent.
-Thus, before being able to calculate the approval of an argument, the approval of all child sub-trees must be calculated first,
-which is why counting has to start at the leaves of the tree (arguments without children). 
+## From the leaves to the thesis
 
-Depending on if a child argument under consideration is a Pro- or a Con-arguments,
-it supports or opposes its parent by adding or subtracting from its approval, respectively.
+Tallying starts at the leaves of the tree and moves upward; a parent can only be tallied once all of its children have been. Each argument $j$ contributes an **impact** to its parent:
 
 $$
-A_{\text{arg},i} = V_{\text{up},i} - V_{\text{down},i} + \sum_{j=1}^{N_\text{childs}} A_{\text{from child},j}
+I_{j} = \sigma_j \, w_j \left( \tfrac{1}{2}\, a_j + \tfrac{1}{2} \sum_{k \in \text{children}(j)} I_k \right)
 $$
 
+built from three ingredients:
 
-This way, the cumulative approval of all arguments accumulates until it reaches the root, where it forms the decision.
+- **Own approval $a_j$** — the argument's standing in its own market: the pro-share price derived from the final balance of its pro and con reserves.
+- **Children's impact** — the already-tallied impacts of its child arguments. An argument's own approval and its subtree's judgement are mixed in equal parts.
+- **Weight and sign** — the result is scaled by $w_j$, the argument's share of the vote tokens staked across it and its siblings, and negated by $\sigma_j = -1$ if the argument attacks (con) rather than supports (pro) its parent.
 
-## Special Rule: Disapproved Arguments
-Arguments having more down-votes than up-votes are considered as wrong or misleading by the voter majority
-and should not (inversely) influence the decision outcome.
-Therefore, their approval is not counted for the parent argument, so that they are neither supporting nor opposing so that
-$$
-A_{\text{from child},i} = \text{max}\left\{A_{\text{arg},i},\,0\right\}.
-$$
+## The outcome
 
+Impacts accumulate upward until the thesis has absorbed the impact of the entire tree. The debate **confirms** the thesis if that accumulated impact is positive, and **objects** otherwise. Once finished, shares [redeem](argument-markets), authors claim their fees, and [bounty](bounty) claims open.
 
+## A signal, not an oracle
 
+The outcome is a **credible deliberation signal**, not a manipulation-proof oracle: an egalitarian game in which every verified human holds the same non-purchasable budget cannot out-secure an attacker whose external budget exceeds the internal stakes. Automation that consumes the outcome (e.g. a DAO spending funds on a confirmed thesis) must bring its own guardrails — bind to the exact thesis content, require a participation quorum and margin, timelock past the claim window, and keep a veto path.

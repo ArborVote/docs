@@ -10,15 +10,13 @@ module.exports = {
       'rating',
       'tallying'
     ],
-    'Incentives': [
-      'incentives',
-      'curation',
-      'ratingmarkets',
-      'payout'
+    'Mechanism': [
+      'argument-markets',
+      'tokens',
+      'bounty'
     ],
-    //'Technical Implementation': [
-    //  'debatefactory',
-    //  'layer2'
-    //]
+    'Roadmap': [
+      'roadmap'
+    ],
   },
 };

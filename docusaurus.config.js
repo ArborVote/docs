@@ -35,6 +35,22 @@ const config = {
     },
   ],
 
+  plugins: [
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects: [
+          {from: '/docs/ratingmarkets', to: '/docs/argument-markets'},
+          {from: '/docs/incentives', to: '/docs/argument-markets'},
+          {from: '/docs/curation', to: '/docs/argument-markets'},
+          {from: '/docs/disputes', to: '/docs/argument-markets'},
+          {from: '/docs/payout', to: '/docs/bounty'},
+          {from: '/docs/layer2', to: '/docs/roadmap'},
+        ],
+      },
+    ],
+  ],
+
   presets: [
     [
       'classic',
@@ -96,8 +112,8 @@ const config = {
                 to: 'docs/phases/',
               },
               {
-                label: 'Incentives',
-                to: 'docs/incentives/',
+                label: 'Argument Markets',
+                to: 'docs/argument-markets/',
               },
             ],
           },
