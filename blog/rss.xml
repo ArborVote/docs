@@ -4,36 +4,10 @@
         <title>ArborVote Blog</title>
         <link>https://arborvote.github.io/docs/blog</link>
         <description>ArborVote Blog</description>
-        <lastBuildDate>Sat, 31 Jul 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 01 Jul 2020 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
-        <item>
-            <title><![CDATA[TEC Spotlight Presentation]]></title>
-            <link>https://arborvote.github.io/docs/blog/TEC-Spotlight</link>
-            <guid>https://arborvote.github.io/docs/blog/TEC-Spotlight</guid>
-            <pubDate>Sat, 31 Jul 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[ArborVote was presented at the Token Engineering Commons (TEC) spotlight presentation.]]></description>
-            <content:encoded><![CDATA[<p>ArborVote was presented at the <a href="https://twitter.com/tecmns/status/1421430439227518976" target="_blank" rel="noopener noreferrer" class="">Token Engineering Commons (TEC) spotlight presentation</a>.<br>
-You can watch the presentation on <a href="https://youtu.be/t9fIkVRgWa0?t=2558" target="_blank" rel="noopener noreferrer" class="">YouTube 📺</a> .</p>
-<p>Also make sure to check out the work of the amazing folks at
-<a href="https://tecommons.org/" target="_blank" rel="noopener noreferrer" class="">TEC 🌱</a> and <a href="https://commonsstack.org/" target="_blank" rel="noopener noreferrer" class="">The Commons Stack 🙌</a> .</p>]]></content:encoded>
-            <category>News</category>
-            <category>Collaboration</category>
-            <category>DAOs</category>
-        </item>
-        <item>
-            <title><![CDATA[ETHcc[4] Update]]></title>
-            <link>https://arborvote.github.io/docs/blog/ETHcc4</link>
-            <guid>https://arborvote.github.io/docs/blog/ETHcc4</guid>
-            <pubDate>Tue, 27 Jul 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Now that I have finished my Ph.D. 🎓, I will be working on ArborVote with full commitment.]]></description>
-            <content:encoded><![CDATA[<p>Now that I have finished my Ph.D. 🎓, I will be working on ArborVote with full commitment.<br>
-Last week, ArborVote was at <a href="https://ethcc.io/" target="_blank" rel="noopener noreferrer" class="">ETHcc[4]</a> and is getting traction in the builder communities.</p>
-<p>Stay tuned for updates! 🚀</p>]]></content:encoded>
-            <category>News</category>
-            <category>Conference</category>
-        </item>
         <item>
             <title><![CDATA[Welcome]]></title>
             <link>https://arborvote.github.io/docs/blog/welcome</link>
